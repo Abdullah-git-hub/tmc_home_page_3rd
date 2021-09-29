@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #374785;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+}
+
+.leftLogo img {
+    width: 80px;
+}
+
+.rightNavIcon i {
+    color: white;
+    font-size: 30px;
+}
+
+.solveBtn a:hover {
+    background: #ffffff7a;
+}
+
+.campSideBtm a:hover {
+    background: #ffffff7a;
+}
+.bannerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftBannImg {
+    /* border: 1px solid; */
+    width: 60%;
+}
+
+.leftBannImg img {
+    width: 100%;
+}
+
+.rightBannTxt h3 {
+    text-align: center;
+    font-size: 32px;
+    color: white;
+    margin-bottom: 17%;
+}
+
+.rightBannTxt {
+    width: 20%;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+}
+
+.rightBannLink a {
+    text-decoration: none;
+    color: white;
+    width: 50%;
+    /* background: #F57359; */
+    font-size: 20px;
+    text-align: center;
+    border-radius: 15px;
+    padding: 3px 0px;
+    border: 3px solid #F57359;
+    color: #F57359;
+    transition: 0.15s;
+}
+
+/* .bannLink {
+    background: #F57359;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 3px 6px;
+} */
+
+.rightBannLink {
+    display: flex;
+    align-items: center;
+    margin-top: 6%;
+}
+
+.circleOuter {
+    width: 18px;
+    aspect-ratio: 1/1;
+    border: 6px solid #f57359;
+    border-radius: 50%;
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 0px 0px 7px 3px #f57359; */
+}
+
+.circleInner {
+    width: 4px;
+    aspect-ratio: 1/1;
+    border: 5px solid #f57359;
+    border-radius: 50%;
+}
+
+.rightBannLink a:hover {
+    background: #F57359;
+    color: white;
+}
+.secHead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.secHead img {
+    width: 80px;
+}
+
+.secHead h3 {
+    font-size: 30px;
+    color: white;
+    margin-right: 25px;
+}
+
+section.latestProblems {
+    margin-top: 10%;
+}
+
+.problemDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    color: white;
+    padding: 4px 30px;
+    width: 90%;
+    /* border: 1px solid; */
+    margin: auto;
+}
+
+.solveBtn a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    background: #ffffff57;
+    border-radius: 9px;
+    /* background: #FFFFFF; */
+    /* opacity: 0.25; */
+    transition: 0.15s;
+}
+
+.tags p {
+    background: #ffffff8c;
+    padding: 0.5px 14px;
+    border-radius: 6px;
+    margin-right: 5px;
+    margin-top: 5px;
+    color: #24305E;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+}
+.problemTxt h3 {
+    font-size: 21px;
+}
+.index_1 {
+    background: #24305E;
+}
+
+.index_2 {
+    background: #F57359;
+}
+
+section.upcomingCamps {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.campsSlide {
+    width: 90%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    color: white;
+    font-size: 60px;
+    transform: translateY(-50%); /* to place the arrow at the center */
+    cursor: pointer;
+}
+
+.campImg img {
+    width: 100%;
+}
+
+.campImg {
+    width: 50%;
+    height: 380px;
+    overflow: hidden;
+}
+
+.campSideTxt {
+    height: 380px;
+    width: 50%;
+    display: grid;
+    grid-template-rows: 75% 25%;
+    background: darkgray;
+}
+
+.campSideTop {
+    background: #24305E;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.campSideTop h3 {
+    font-size: 35px;
+}
+
+.campSideTop p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+.campSideBtm {
+    background: #F57359;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+
+.campSideBtm a {
+    text-decoration: none;
+    color: white;
+    background: #ffffff57;
+    padding: 10px 30px;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.campSideBtm p {
+    font-size: 20px;
+    color: white;
+}
